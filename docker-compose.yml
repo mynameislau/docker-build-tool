@@ -1,0 +1,8 @@
+version: '2'
+services:
+  web:
+    image: "mynameislau/front-end-build"
+    command: bash -c "cp -r /mnt/src /usr/tool/src && npm run dev"
+    volumes:
+     - //c/Users/lfalda/dev/esse-int/build-tool/scripts:/mnt/scripts
+     - //c/Users/lfalda/dev/esse-int/src:/mnt/src

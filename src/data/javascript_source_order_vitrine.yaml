@@ -1,0 +1,82 @@
+head:
+  - { src: '../bower_components/es5-shim/es5-shim.js', ie: 10 }
+  - { src: '../bower_components/es5-shim/es5-sham.js', ie: 10 }
+  - { src: 'vendors/babel-polyfill/polyfill.js', ie: 10 }
+  - { src: '../bower_components/es6-promise/es6-promise.js' }
+  - { src: 'vendors/ie8.js', ie: 10 }
+  - { src: '../bower_components/DOM4/build/dom4.js', ie: 10 }
+  - { src: 'head/request-animation-frame-polyfill.js', ie: 10 }
+#  - { src: '../bower_components/svg4everybody/dist/svg4everybody.legacy.js' }
+  - { src: '../bower_components/picturefill/dist/picturefill.min.js' }
+#  - { src: '../bower_components/MutationObserver-shim/dist/mutationobserver.min.js', ie: 11 }
+
+  - { src: 'head/document-ready.js' }
+  - { src: 'head/utils.js' }
+  - { src: '../bower_components/html5shiv/dist/html5shiv.js' }
+#  - { src: '../bower_components/webfontloader/webfontloader.js' }
+  - { src: 'head/modernizr.js' }
+  # - { src: '../bower_components/pikaday/pikaday.js' }
+  - { src: 'head/is-native.js' }
+  - { src: 'head/main_head.js' }
+  # - { src: 'vendors/sticky.js' }
+
+magento-fix:
+  - { src: 'head/save-standard-methods.js', preventBundling: true }
+  - { src: 'head/retrieve-standard-methods.js', preventBundling: true }
+
+# pour l'integration des google maps
+#gmaps:
+#  - { src: 'infobox.js' }
+#  - { src: 'https://maps.googleapis.com/maps/api/js?key=AIzaSyDboPPeNvhvKe2yRp-YR3JnOihfpRT3HDw&callback=scala.initGMap', async: true, defer: true }
+#
+#mainMap:
+#  - { src: 'main-map.js', async: true, defer: true }
+#smallMap:
+#  - { src: 'small-map.js', async: true, defer: true }
+
+youtube:
+  - { src: 'flow/youtube-timelapse.js' }
+  - { src: 'https://www.youtube.com/iframe_api', async: true, defer: true }
+  - { src: 'flow/youtube-mute.js' }
+
+carousel:
+  - { src: '../bower_components/owl.carousel/dist/owl.carousel.js' }
+  - { src: 'flow/carousel.js' }
+
+tablesorter:
+  - { src: '../bower_components/datatables.net/js/jquery.dataTables.js' }
+  - { src: '../bower_components/datatables-scroller/js/dataTables.scroller.js' }
+  - { src: 'flow/tablesorter.js' }
+
+shopmap:
+  - { src: 'flow/shop-map.js' }
+
+flow:
+  - { src: '../bower_components/jquery/dist/jquery.js' }
+  - { src: '../bower_components/jquery-ui/jquery-ui.min.js' }
+  - { src: '../bower_components/jquery-ui/ui/i18n/datepicker-fr.js' }
+  - { src: '../bower_components/jquery-ui/ui/i18n/datepicker-en-GB.js' }
+#  - { src: 'head/stolen.js' }
+  - { src: '../bower_components/respond/dest/respond.min.js', ie: 9}
+#  - { src: '../bower_components/expand/lib/expand.js', async: true, defer: true }
+#  - { src: '../bower_components/progressive-file-inputs/lib/progressive-file-inputs.js', async: true, defer: true }
+#  - { src: 'flow/webfonts.js', async: true, defer: true }
+  - { src: 'flow/main_flow.js', async: true, defer: true }
+  - { src: 'flow/calendars.js', async: true, defer: true }
+  - { src: 'flow/es6/tablist.js', async: true, defer: true, webpack: true }
+  - { src: 'flow/es6/expand.js', async: true, defer: true, webpack: true }
+  # - { src: 'flow/es6/auto-slide.js', async: true, defer: true, webpack: true } # auto jquery slide up down...
+  - { src: 'flow/es6/auto-size-transitions.js', async: true, defer: true, webpack: true }
+  - { src: 'flow/main-navigation.js', async: true, defer: true }
+  - { src: 'flow/expend-search.js', async: true, defer: true }
+  - { src: 'flow/news-feed-scrolling.js', async: true, defer: true }
+  - { src: 'flow/smooth-anchoring.js', async: true, defer: true }
+  - { src: '../bower_components/ua-parser-js/dist/ua-parser.min.js', async: true, defer: true }
+#  - { src: 'flow/keynumber-increment.js', async: true, defer: true }
+  - { src: 'flow/expand-mobile-row.js', async: true, defer: true }
+#  - { src: 'flow/auto-size-transitions.js', async: true, defer: true }
+#  - { src: 'flow/sticky.js', async: true, defer: true }
+  - { src: 'flow/height-mirror.js', async: true, defer: true }
+
+autocomplete:
+  - { src: 'autocomplete.js' }

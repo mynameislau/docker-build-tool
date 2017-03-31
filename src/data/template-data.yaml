@@ -1,0 +1,201 @@
+menu:
+  - name: Vols et destination
+    submenus:
+      - subname: Information des vols en temps reel
+        items:
+          - item: Départ du jour
+            link: link
+          - item: Arrivées du jour
+            link: link2
+          - item: Mon vol en direct
+          - item: Guide des horaires
+
+      - subname: Destination
+        items:
+          - item: Régulières
+          - item: low-cost
+          - item: Charter
+          - item: Carte interactive
+
+      - subname: Reservations
+        items:
+          - item: Vols
+          - item: Séjours
+          - item: Hotel
+          - item: Voiture
+
+      - subname: Liste des compagnies
+        items:
+          - item: Compagnies aériennes
+          - item: Enrgistrement en ligne
+
+  - name: Parking et accès
+    submenus:
+      - subname: Information des vols en temps reel
+        items:
+          - item: Départ du jour
+          - item: Arrivées du jour
+          - item: Mon vol en direct
+          - item: Guide des horaires
+
+      - subname: Destination
+        items:
+          - item: Régulières
+          - item: low-cost
+          - item: Charter
+          - item: Carte interactive
+
+      - subname: Reservations
+        items:
+          - item: Vols
+          - item: Séjours
+          - item: Hotel
+          - item: Voiture
+
+      - subname: Liste des compagnies
+        items:
+          - item: Compagnies aériennes
+          - item: Enrgistrement en ligne
+
+  - name: Vols et destination
+    submenus:
+      - subname: Information des vols en temps reel
+        items:
+          - item: Départ du jour
+            link: link
+          - item: Arrivées du jour
+            link: link2
+          - item: Mon vol en direct
+          - item: Guide des horaires
+
+      - subname: Destination
+        items:
+          - item: Régulières
+          - item: low-cost
+          - item: Charter
+          - item: Carte interactive
+
+      - subname: Reservations
+        items:
+          - item: Vols
+          - item: Séjours
+          - item: Hotel
+          - item: Voiture
+
+      - subname: Liste des compagnies
+        items:
+          - item: Compagnies aériennes
+          - item: Enrgistrement en ligne
+
+  ###########################################
+
+footer-menu:
+  - name: Vols et destination
+    items:
+      - item: Départ du jour
+      - item: Arrivées du jour
+      - item: Mon vol en direct
+      - item: Guide des horaires
+
+  - name: Vols et destination
+    items:
+      - item: Départ du jour
+      - item: Arrivées du jour
+      - item: Mon vol en direct
+      - item: Guide des horaires
+
+  - name: Vols et destination
+    items:
+      - item: Départ du jour
+      - item: Arrivées du jour
+      - item: Mon vol en direct
+      - item: Guide des horaires
+
+  - name: Vols et destination
+    items:
+      - item: Départ du jour
+      - item: Arrivées du jour
+      - item: Mon vol en direct
+      - item: Guide des horaires
+
+  ###########################################
+
+vitrine:
+  timelapse-modifier: timelapse--public
+  timelapse-title: Bonjour.
+  timelapse-content: vitrine__timelapse
+
+  faq:
+    - id: top-subject
+      name: sujet les plus consultés
+
+    - id: access
+      name: Accéder, stationner, quiter
+
+    - id: trade
+      name: Commerce et service
+
+    - id: prepare
+      name: Préparer et bien vivre son voyage
+
+    - id: other
+      name: Autres
+
+  ###########################################
+
+societe:
+  timelapse-modifier: timelapse--public
+  timelapse-title: Bienvenue.
+  timelapse-content: vitrine__timelapse
+
+  ###########################################
+
+v-pro:
+  timelapse-modifier: timelapse--public
+  timelapse-title: Partenaire.
+
+  ###########################################
+
+store:
+  timelapse-title: Parking.
+  timelapse-subtitle: 3 parkings et 6000 places réservables en ligne, dont la vôtre !
+  timelapse-content: parking-form
+
+  account-menu:
+    - id: tableau
+      name: Mon tableau de bord
+      content-partial: store-account-dashboard
+
+    - id: infos
+      name: Mes informations
+
+    - id: adresses
+      name: Mes adresses
+
+    - id: commandes
+      name: Mes commandes
+
+    - id: annule
+      name: Annuler une commande
+
+    - id: abonnements
+      name: Mes abonnements
+
+    - id: alertes
+      name: Mes alertes et newsletters
+
+  parking:
+    timelapse-title: Réservez votre parking.
+    timelapse-subtitle: Calculez le tarif de votre stationnement et choisissez la formule qui vous correspond.
+    timelapse-content: parking-form
+
+
+  ###########################################
+
+topbar:
+  - name: Passager & visiteurs
+    link: vitrine__home.html
+  - name: Professionnels
+    additionalClasses: topbar__link--active
+    link: store-hp.html
+  - name: Société AMP

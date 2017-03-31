@@ -1,0 +1,1 @@
+{"version":3,"sources":["main.scss"],"names":[],"mappings":"AAAA,YAGI,WAAW,AACX,oBAAA,AAAa,oBAAb,AAAa,YAAA,CACd","file":"main.css","sourcesContent":[".toto {\n\n  .tutu {\n    color: blue;\n    display: flex;\n  }\n}\n"],"sourceRoot":"/source/"}
